@@ -7,10 +7,10 @@ public class Calc {
     private String[] expression;
     private int varPriority = 0;
 
-    ArrayList <Integer> priority = new ArrayList<>();
-    ArrayList <Integer> position = new ArrayList<>();
-    ArrayList <String> operation = new ArrayList<>();
-    ArrayList <String> expList = new ArrayList<>();
+    private ArrayList <Integer> priority = new ArrayList<>();
+    private ArrayList <Integer> position = new ArrayList<>();
+    private ArrayList <String> operation = new ArrayList<>();
+    private ArrayList <String> expList = new ArrayList<>();
 
     Calc(String string) {
         expression = string.split(" ");
